@@ -34,7 +34,7 @@ app.get('/app/flips/:number', (req, res) => {
     res.json(json)
 })
 
-app.get('/app/flip/:call', (req, res) => {
+app.get('/app/flip/call/:call', (req, res) => {
     res.statusCode = 200
     const json = flipACoin(req.params.call)
     res.setHeader('Content-Type', 'application/json')
