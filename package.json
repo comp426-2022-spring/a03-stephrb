@@ -19,6 +19,6 @@
   "type": "module",
   "dependencies": {
     "express": "^4.17.3",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
